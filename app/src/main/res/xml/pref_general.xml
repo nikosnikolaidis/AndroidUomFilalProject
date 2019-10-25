@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Preference
+
+        android:title="@string/pref_location_label"
+        android:key="@string/pref_location_key"
+        android:defaultValue="@string/pref_location_default"
+        android:inputType="text"
+        android:singleLine="true"
+        >
+    </Preference>
+
+    <ListPreference
+        android:key="@string/pref_cur_key"
+        android:defaultValue="@string/pref_cur_eur"
+        android:title="@string/pref_cur_label"
+        android:entries="@array/pref_cur_entries"
+        android:entryValues="@array/pref_cur_entryValues"
+        >
+    </ListPreference>
+</PreferenceScreen>

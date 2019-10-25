@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="top|center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_text_size"
+        android:text="@string/title_suggestions_fragment"/>
+
+
+    <ListView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:id="@+id/suggestions_list"/>
+
+    <ImageView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:contentDescription="@string/loading"
+        android:id="@+id/loading_view"
+        android:layout_width="@dimen/loading_dim"
+        android:layout_height="@dimen/loading_dim"
+        />
+
+
+</LinearLayout>

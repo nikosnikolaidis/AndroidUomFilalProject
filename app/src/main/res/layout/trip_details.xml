@@ -1,0 +1,38 @@
+<LinearLayout
+    android:id="@+id/details_container"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_border"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:background="@drawable/rounded_border"
+        android:textStyle="bold"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/details_price"
+        android:gravity="center"
+        />
+
+    <ListView
+        android:layout_weight="1"
+        android:id="@+id/detailed_flights_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </ListView>
+    <Button
+        android:visibility="gone"
+        android:text="@string/buy_flight"
+        android:background="@drawable/rounded_border"
+        android:textStyle="bold"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buy"
+        android:gravity="center"
+        />
+</LinearLayout>

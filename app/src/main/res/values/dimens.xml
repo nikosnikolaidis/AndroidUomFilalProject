@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tabwidth">30dp</dimen>
+    <dimen name="tabheight">35dp</dimen>
+    <dimen name="logo_dim">120dp</dimen>
+    <dimen name="dots_dim">10dp</dimen>
+    <dimen name="title_text_size">23sp</dimen>
+    <dimen name="loading_dim">35dp</dimen>
+    <dimen name="list_button_dim">50dp</dimen>
+    <dimen name="small_views_paddings">5dp</dimen>
+    <dimen name="big_views_margin">10dp</dimen>
+</resources>

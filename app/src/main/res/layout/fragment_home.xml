@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+
+        >
+        <ImageView
+            android:contentDescription="@string/logo"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="@dimen/logo_dim"
+            android:layout_height="@dimen/logo_dim"
+            android:id="@+id/Logo"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:text="@string/touch_the_plane_to_learn_your_lucky_trip"
+            android:id="@+id/lucky_trip_text"
+            />
+
+        <LinearLayout
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:id="@+id/lucky_trip_container"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_border">
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/departure_date"
+                    android:gravity="center"
+                    />
+
+                <ImageView
+                    android:contentDescription="@string/dots"
+                    android:gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:layout_width="@dimen/dots_dim"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/dots"/>
+
+
+
+                <TextView
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/return_date"
+                    />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/rounded_border">
+
+
+        <TextView
+            android:gravity="center"
+            android:layout_margin="@dimen/small_views_paddings"
+            android:padding="@dimen/small_views_paddings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/description"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:layout_margin="@dimen/small_views_paddings"
+            android:layout_width="@dimen/list_button_dim"
+            android:layout_height="@dimen/list_button_dim"
+            android:layout_weight="0"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/flight"
+            android:id="@+id/start_search"
+            />
+
+
+
+</LinearLayout>
